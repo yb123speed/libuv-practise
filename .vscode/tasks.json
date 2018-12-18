@@ -8,9 +8,10 @@
             "type": "shell",
             "command": "gcc-8",
             "args": [
-                "0x00/main.c",
-                "-v",
-                "-m32"
+                "-o",
+                "0x00.out",
+                "./0x00/main.c",
+                "/usr/local/lib/libuv.a",
             ],
             "group": {
                 "kind": "build",
