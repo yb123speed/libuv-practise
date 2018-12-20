@@ -17,6 +17,21 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "0x01",
+            "type": "shell",
+            "command": "gcc-8",
+            "args": [
+                "-o",
+                "0x01.out",
+                "./0x01/main.c",
+                "/usr/local/lib/libuv.a",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
